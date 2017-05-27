@@ -13,7 +13,8 @@ section {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  text-shadow: 1px 1px 2px white; }
   .header .container {
     padding-top: 170px; }
   .header h1 {
