@@ -35,3 +35,11 @@ section {
 #playlist {
     background-color: $playlist-color;
 }
+
+#portfolio {
+    .tile {
+        img {
+            width: inherit;
+        }
+    }
+}

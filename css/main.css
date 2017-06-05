@@ -24,4 +24,7 @@ section {
 #playlist {
   background-color: #eff9f5; }
 
+#portfolio .tile img {
+  width: inherit; }
+
 /*# sourceMappingURL=main.css.map */
