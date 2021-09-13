@@ -1,0 +1,107 @@
+$playlist-color: #eff9f5;
+$source-sans-font: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$roboto-font: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$lightgray: #D3D3D3;
+$linkblue: #23527c;
+
+body {
+    font-family: $source-sans-font;
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+section {
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid $lightgray;
+    position: fixed;
+    width: 100%;
+    ul {
+        display: flex;
+    }
+    li {
+        font-size: 13px;
+        margin: 0 1em;
+        a {
+            color: gray;
+            text-decoration: none;
+        }
+    }
+}
+
+.header {
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background-size: cover;
+    height: 500px;
+    text-shadow: 1px 1px 2px white;
+    text-align: center;
+    width: 100%;
+    
+    .container {
+        padding-top: 170px;
+    }
+    
+    h1 {
+        font-family: $roboto-font;
+        font-size: 6em;
+        font-weight: 500;
+        line-height: 1.1;
+        margin: 10px 0;
+    }
+    h3 {
+        font-size: 24px;
+        font-weight: 500; 
+        line-height: 1.1;
+        margin: 10px 0;
+    }
+    
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#playlist {
+    background-color: $playlist-color;
+}
+
+#portfolio {
+    .container {
+        display: flex;
+    }
+    .tile {
+        flex: 1 1 0;
+        margin: 5%;
+        text-align: left;
+        img {
+            width: 30%;
+        }
+    }
+}
+
+footer {
+    background-color: $playlist-color;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    a {
+        color: $linkblue;
+        text-decoration: none;
+    }
+}

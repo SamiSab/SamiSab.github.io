@@ -1,0 +1,23 @@
+{
+  "name": "samisab.github.io",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamiSab/SamiSab.github.io.git"
+  },
+  "author": "Samin Saberi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamiSab/SamiSab.github.io/issues"
+  },
+  "homepage": "https://github.com/SamiSab/SamiSab.github.io#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
