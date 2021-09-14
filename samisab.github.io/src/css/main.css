@@ -1,0 +1,78 @@
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  width: 100%; }
+
+section {
+  padding-bottom: 2em;
+  padding-top: 1em; }
+
+li {
+  list-style: none; }
+
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #D3D3D3;
+  position: fixed;
+  width: 100%; }
+  .navbar ul {
+    display: flex; }
+  .navbar li {
+    font-size: 13px;
+    margin: 0 1em; }
+    .navbar li a {
+      color: gray;
+      text-decoration: none; }
+
+.header {
+  background: url(../img/bg.jpg) no-repeat center center scroll;
+  background-size: cover;
+  height: 500px;
+  text-shadow: 1px 1px 2px white;
+  text-align: center;
+  width: 100%; }
+  .header .container {
+    padding-top: 170px; }
+  .header h1 {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 6em;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 10px 0; }
+  .header h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 10px 0; }
+
+h2 {
+  font-size: 30px;
+  font-weight: 500; }
+
+h4 {
+  font-size: 18px;
+  font-weight: 700; }
+
+#playlist {
+  background-color: #eff9f5; }
+
+#portfolio .container {
+  display: flex; }
+
+#portfolio .tile {
+  flex: 1 1 0;
+  margin: 5%;
+  text-align: left; }
+  #portfolio .tile img {
+    width: 30%; }
+
+footer {
+  background-color: #eff9f5;
+  padding-bottom: 70px;
+  padding-top: 30px; }
+  footer a {
+    color: #23527c;
+    text-decoration: none; }
