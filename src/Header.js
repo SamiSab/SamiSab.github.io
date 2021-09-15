@@ -3,7 +3,7 @@ function Header() {
     <header className="header">
         <div className="container">
             <h1>Samin Saberi</h1>
-            <h3>Aspiring Software Engineer</h3>
+            <h3>Software Engineer</h3>
         </div>
     </header>
   );

@@ -83,17 +83,27 @@ h4 {
 }
 
 #portfolio {
+    padding: 0 7em;
+    margin-bottom: 1em;
     .container {
         display: flex;
+        flex-wrap: wrap;
     }
     .tile {
         flex: 1 1 0;
-        margin: 5%;
+        padding: 0 1em;
         text-align: left;
         img {
-            width: 30%;
+            margin-top: 2em;
+            vertical-align: middle;
+            width: 100%;
         }
-    }
+
+        @media screen and (max-width: 750px) {
+            flex: 100%;
+            max-width: 100%;
+        }
+    }   
 }
 
 footer {
