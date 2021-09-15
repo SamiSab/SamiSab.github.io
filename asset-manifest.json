@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.70920772.chunk.css",
-    "main.js": "/static/js/main.971c3b0e.chunk.js",
-    "main.js.map": "/static/js/main.971c3b0e.chunk.js.map",
+    "main.css": "/static/css/main.913e4288.chunk.css",
+    "main.js": "/static/js/main.1367034d.chunk.js",
+    "main.js.map": "/static/js/main.1367034d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e7e0b19c.js",
     "runtime-main.js.map": "/static/js/runtime-main.e7e0b19c.js.map",
     "static/js/2.3ee3b72c.chunk.js": "/static/js/2.3ee3b72c.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.c96fed26.chunk.js": "/static/js/3.c96fed26.chunk.js",
     "static/js/3.c96fed26.chunk.js.map": "/static/js/3.c96fed26.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.70920772.chunk.css.map": "/static/css/main.70920772.chunk.css.map",
+    "static/css/main.913e4288.chunk.css.map": "/static/css/main.913e4288.chunk.css.map",
     "static/js/2.3ee3b72c.chunk.js.LICENSE.txt": "/static/js/2.3ee3b72c.chunk.js.LICENSE.txt",
     "static/media/Resume_Samin_Saberi_052317.2021626e.pdf": "/static/media/Resume_Samin_Saberi_052317.2021626e.pdf",
     "static/media/ba1.cd535615.jpg": "/static/media/ba1.cd535615.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.e7e0b19c.js",
     "static/js/2.3ee3b72c.chunk.js",
-    "static/css/main.70920772.chunk.css",
-    "static/js/main.971c3b0e.chunk.js"
+    "static/css/main.913e4288.chunk.css",
+    "static/js/main.1367034d.chunk.js"
   ]
 }
