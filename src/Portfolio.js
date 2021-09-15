@@ -19,23 +19,76 @@ function Portfolio() {
             <p>I plan to link some coding projects later.</p>
         </div>
 
-        <div className="container">
+        <div className="grid-container">
             
-            <div className="tile">
-                <img alt="" src={brokenarts} />
-                <img alt="" src={ba2} />
-                <img alt="" src={ba5} />
+            <div className="column">
+                <div className="tile">
+                    <img alt="" src={brokenarts} />
+                    <div class="overlay">
+                        <div class="overlay-text">Logo for "Broken Arts"</div>
+                    </div>
+                </div>
+
+                <div className="tile">
+                    <img alt="" src={ba2} />
+                    <div class="overlay">
+                        <div class="overlay-text">Promotional poster for local music show for "Broken Arts"</div>
+                    </div>
+                </div>
+                <div className="tile">
+                    <img alt="" src={ba5} />
+                    <div class="overlay">
+                        <div class="overlay-text">Promotional poster for local music show for "Broken Arts"</div>
+                    </div>
+                </div>
             </div>
-            <div className="tile">
-                <img alt="" src={oblogo} />
-                <img alt="" src={ba3} />
-                <img alt="" src={ba6} />
-                <img alt="" src={ba8} />
+
+            <div className="column">
+
+                <div className="tile">
+                    <img alt="" src={oblogo} />
+                    <div class="overlay">
+                        <div class="overlay-text">Logo in use at <a href="https://ontariobahai.org">OntarioBahai.org</a>. Vector image created with Adobe tools.</div>
+                    </div>
+                </div>
+                <div className="tile">
+                    <img alt="" src={ba3} />
+                    <div class="overlay">
+                        <div class="overlay-text">Promotional poster for local music show for "Broken Arts"</div>
+                    </div>
+                </div>
+                <div className="tile">
+                    <img alt="" src={ba6} />
+                    <div class="overlay">
+                        <div class="overlay-text">Promotional poster for local music show for "Broken Arts"</div>
+                    </div>
+                </div>
+                <div className="tile">
+                    <img alt="" src={ba8} />
+                    <div class="overlay">
+                        <div class="overlay-text">Promotional poster for local music show for "Broken Arts"</div>
+                    </div>
+                </div>
             </div>
-            <div className="tile">
-                <img alt="" src={binnfeill} />
-                <img alt="" src={ba4} />
-                <img alt="" src={ba7} />
+            <div className="column">
+                <div className="tile">
+                    <img alt="" src={binnfeill} />
+                    <div class="overlay">
+                        <div class="overlay-text">Promotional poster for high school dance production. Vector image design created in Adobe Illustrator.</div>
+                    </div>
+                </div>
+                <div className="tile">
+                    <img alt="" src={ba4} />
+                    <div class="overlay">
+                        <div class="overlay-text">Promotional poster for local music show for "Broken Arts"</div>
+                    </div>
+                </div>
+                <div className="tile">
+                    <img alt="" src={ba7} />
+                    <div class="overlay">
+                        <div class="overlay-text">Promotional poster for local music show for "Broken Arts"</div>
+                    </div>
+                </div>
             </div>
             
         </div>

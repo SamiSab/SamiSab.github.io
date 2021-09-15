@@ -1,6 +1,7 @@
 $playlist-color: #eff9f5;
 $source-sans-font: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $roboto-font: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$apple-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 $lightgray: #D3D3D3;
 $linkblue: #23527c;
 
@@ -22,11 +23,17 @@ li {
     list-style: none;
 }
 
+a {
+    color: $linkblue;
+    text-decoration: none;
+}
+
 .navbar {
     background-color: white;
     border-bottom: 1px solid $lightgray;
     position: fixed;
     width: 100%;
+    z-index: 10;
     ul {
         display: flex;
     }
@@ -85,15 +92,16 @@ h4 {
 #portfolio {
     padding: 0 7em;
     margin-bottom: 1em;
-    .container {
+    .grid-container {
         display: flex;
         flex-wrap: wrap;
     }
-    .tile {
+    .column {
         flex: 1 1 0;
         padding: 0 1em;
         text-align: left;
         img {
+            display: block;
             margin-top: 2em;
             vertical-align: middle;
             width: 100%;
@@ -103,15 +111,45 @@ h4 {
             flex: 100%;
             max-width: 100%;
         }
-    }   
+
+        .tile {
+            position: relative;
+
+            .overlay {
+                background-color: hsla(0, 0%, 0%, 0.5);
+                bottom: 0;
+                height: 100%;
+                left: 0;
+                opacity: 0;
+                overflow: hidden;
+                position: absolute;
+                right: 0;
+                top: 0;
+                transition: .5s ease;
+                width: 100%;
+            }
+
+            &:hover .overlay {
+              opacity: 1;
+            }
+
+            .overlay-text {
+                background-color: rgba(0, 0, 0, 0.9);
+                color: white;
+                font-size: 14px;
+                left: 50%;
+                padding: 3%;
+                position: absolute;
+                text-align: center;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
 }
 
 footer {
     background-color: $playlist-color;
     padding-bottom: 70px;
     padding-top: 30px;
-    a {
-        color: $linkblue;
-        text-decoration: none;
-    }
 }
