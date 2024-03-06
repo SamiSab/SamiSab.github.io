@@ -8,8 +8,6 @@ function Footer() {
         <h4>Contact me</h4>
         <ul className="contact">
             <li><a href={resume}>Take a look at my resume here!</a></li>
-            <li><i className="fa fa-phone fa-fw"></i> (905) 809-8736</li>
-            <li><i className="fa fa-envelope-o fa-fw"></i>  <a href="mailto:samin.saberi97@gmail.com">samin.saberi97@gmail.com</a>
             </li>
         </ul>
     </footer>
