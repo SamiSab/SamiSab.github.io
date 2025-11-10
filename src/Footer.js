@@ -8,7 +8,6 @@ function Footer() {
         <h4>Contact me</h4>
         <ul className="contact">
             <li><a href={resume}>Take a look at my resume here!</a></li>
-            </li>
         </ul>
     </footer>
   );
