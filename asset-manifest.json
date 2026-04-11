@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7969abd8.css",
-    "main.js": "/static/js/main.1acfc13c.js",
-    "static/js/453.7dd8f9b6.chunk.js": "/static/js/453.7dd8f9b6.chunk.js",
+    "main.js": "/static/js/main.c31221b9.js",
+    "static/js/453.7a7b9904.chunk.js": "/static/js/453.7a7b9904.chunk.js",
     "static/media/binnfeillposter.jpg": "/static/media/binnfeillposter.8b2033e2d01e0e0c4c87.jpg",
     "static/media/ba5.jpg": "/static/media/ba5.a42000af3bb47b8beccd.jpg",
     "static/media/ba3.jpg": "/static/media/ba3.2f31aae9985ace45b3d7.jpg",
@@ -17,11 +17,11 @@
     "static/media/oblogo.png": "/static/media/oblogo.e4458fe8ce71a37232e6.png",
     "index.html": "/index.html",
     "main.7969abd8.css.map": "/static/css/main.7969abd8.css.map",
-    "main.1acfc13c.js.map": "/static/js/main.1acfc13c.js.map",
-    "453.7dd8f9b6.chunk.js.map": "/static/js/453.7dd8f9b6.chunk.js.map"
+    "main.c31221b9.js.map": "/static/js/main.c31221b9.js.map",
+    "453.7a7b9904.chunk.js.map": "/static/js/453.7a7b9904.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7969abd8.css",
-    "static/js/main.1acfc13c.js"
+    "static/js/main.c31221b9.js"
   ]
 }
