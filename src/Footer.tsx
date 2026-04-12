@@ -1,6 +1,6 @@
 import resume from './img/Resume_Samin_Saberi_052317.pdf';
 
-function Footer() {
+const Footer: React.FC = () => {
 
   // TODO: replace font-awesome className with react package: https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react
   return (

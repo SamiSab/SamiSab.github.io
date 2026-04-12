@@ -1,4 +1,5 @@
 import brokenarts from './img/ba1.jpg';
+// const brokenarts = require('./img/ba1.jpg') as string;
 import ba2 from './img/ba2.jpg';
 import ba3 from './img/ba3.jpg';
 import ba4 from './img/ba4.jpg';
